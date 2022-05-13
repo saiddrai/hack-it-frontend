@@ -1,11 +1,13 @@
 import './App.css';
-import Signin from './pages/Signin';
-import Welcome from "./pages/Welcome.jsx";
+import ChoicePage1 from './pages/Choices/ChoicePage1/ChoicePage1';
+import Signin from './pages/Signin/Signin';
+import Welcome from "./pages/Welcome/Welcome.jsx";
 function App() {
   return (
     <div className="App">
       {/* <Welcome /> */}
-      <Signin />
+      {/* <Signin /> */}
+      <ChoicePage1/>
     </div>
   );
 }

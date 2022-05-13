@@ -1,3 +1,4 @@
+import "./welcome.scss"
 import photo from "./welcomepic.png"
 
 const Welcome = () => {

@@ -1,3 +1,5 @@
+import "./signin.scss"
+
 const Signin = () => {
     return ( 
         <div>
