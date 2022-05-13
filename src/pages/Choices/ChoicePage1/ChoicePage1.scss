@@ -1,0 +1,24 @@
+.image{
+    background-color: #86CEFD;
+    border-radius: 15px;
+    height: 10vh;
+    width: 10vh;
+
+}
+.choices{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+.element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.choicePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
