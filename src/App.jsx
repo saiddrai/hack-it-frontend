@@ -12,10 +12,11 @@ function App() {
       {/* <Welcome /> */}
       {/* <Signin /> */}
       {/* <ChoicePage1/> */}
-      {/* <HiAlex /> */}
-      {/* <Stats /> */}
+      <HiAlex /> 
+      {/* <Stats />
       {/* <Score /> */}
-      <Suggestions/>
+      {/* <Suggestions/> */}
+      
           </div>
   );
 }
