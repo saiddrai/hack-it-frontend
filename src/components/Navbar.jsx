@@ -1,9 +1,15 @@
+import "./navbar.scss"
+import home from "./home.png"
+import star from "./star.svg"
+import profile from "./profile-user.svg"
+import heartbeat from "./heart-beat.svg";
+
 const Navbar = (props) => {
-    return ( <div>
-        <button> <img src="" alt="" /> home</button>
-        <button>Health Statestics</button>
-        <button> Achievements</button>
-        <button>Profile</button>
+    return ( <div className="navbar">
+        <button> <img src={home} alt="" /> </button>
+        <button><img src={heartbeat} alt="" /></button>
+        <button><img src={star} alt="" /></button>
+        <button> <img src={profile} alt="" /></button>
     </div> );
 }
  

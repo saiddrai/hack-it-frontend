@@ -21,7 +21,6 @@ const Score = () => {
         <div className="list">
             {achievements.map( x => <div className="achievment" > {x} </div> )}
         </div>
-        <Navbar />
             </div> );
 }
  

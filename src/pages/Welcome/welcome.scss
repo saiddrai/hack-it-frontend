@@ -1,0 +1,31 @@
+.body{
+    padding: 20vh 5vw 10vh 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E5E5;
+    img{
+        // width: 70vw;
+    }
+    button {
+        background-color: #7E9BF9;
+        padding: 2vh 8vw;
+        font-size: large;
+        width: 85%;
+        height: 10%;
+        color: aliceblue;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        
+    
+    }
+}
+.vector{
+    width:40px;
+    height: 40px;
+}

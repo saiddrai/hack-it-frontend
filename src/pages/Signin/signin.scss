@@ -1,0 +1,54 @@
+.page{
+    background-color: #F5F5F5;
+    width: 428;
+    height: 926;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top{
+
+    
+    button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+}
+.getting{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: left;
+    flex-direction: column;
+}
+h2{
+    font-size: 2em;
+    margin: 0;
+}
+p{
+    margin: 10;
+}
+input{
+    background-color: white;
+    padding: 16px 30px;
+    margin: 12px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.signin{
+    background-color: #7E9BF9;
+    width: 83%;
+    margin-top: 5%;
+    color: white;
+    justify-self: center;
+    align-self: center;
+    padding: 15px;
+    border-radius: 15px;
+}

@@ -1,0 +1,18 @@
+.navbar {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 94px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+/*# sourceMappingURL=navbar.css.map */
