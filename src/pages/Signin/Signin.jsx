@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import back from '../../back.svg';
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import './signin.scss';
 
@@ -10,12 +12,18 @@ const Signin = () => {
         password2: '',
     });
 
+    const navigate = useNavigate();
+    const handleClick = () => {};
+
     const submitLogin = () => {
         console.log(formInputs);
-        axios.post(
-            `${process.env.REACT_APP_BASE_URL}/api/user/register`,
-            formInputs
-        );
+        axios
+            .post(
+                `${process.env.REACT_APP_BASE_URL}/api/user/register`,
+                formInputs
+            )
+            .then(() => navigate('/Choices'))
+            .catch((err) => console.log(err));
     };
     return (
         <div>
@@ -73,6 +81,9 @@ const Signin = () => {
                 <p>Google</p>
                 <p>Facebook</p>
             </div>
+            <button onClick={handleClick} className="signin">
+                Sign in
+            </button>
         </div>
     );
 };

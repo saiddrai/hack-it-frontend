@@ -1,1 +1,47 @@
-/* No CSS *//*# sourceMappingURL=welcome.css.map */
+.body {
+  padding: 20vh 5vw 10vh 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #E5E5E5;
+}
+
+.body button {
+  background-color: #7E9BF9;
+  padding: 2vh 8vw;
+  font-size: large;
+  width: 85%;
+  height: 10%;
+  color: aliceblue;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.vector {
+  width: 40px;
+  height: 40px;
+}
+/*# sourceMappingURL=welcome.css.map */

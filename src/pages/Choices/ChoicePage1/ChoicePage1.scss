@@ -1,0 +1,51 @@
+.choicePage{
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    margin-bottom: 20%;
+}
+
+.image{
+    background-color: #86CEFD;
+    border-radius: 15px;
+    height: 10vh;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    img{
+        width: 90%;
+    }
+}
+.choices{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+.element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.choicePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skip{
+    margin-top: 15%;
+    display: flex;
+    width: 88%;
+    justify-content: right;
+    align-items: right;
+    button{
+        font-size: 1.5em;
+    }
+}

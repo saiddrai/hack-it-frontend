@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,OAAO,EAAE,IAAI;CAChB;;AAED,AAAA,MAAM,CAAA;EACF,UAAU,EAAE,OAAO;EACvB,UAAU,EAAE,KAAK,CAAC,GAAG,CAAC,IAAI,CAAC,IAAI,CAAC,mBAAmB;EACnD,aAAa,EAAE,IAAI;EACnB,OAAO,EAAE,GAAG;EACZ,SAAS,EAAE,GAAG;CAEb",
+    "sources": [
+        "HiAlex.scss"
+    ],
+    "names": [],
+    "file": "HiAlex.css"
+}
