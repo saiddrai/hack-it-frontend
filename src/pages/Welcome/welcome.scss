@@ -1,15 +1,30 @@
-.body{
-    padding: 20vh 5vw 10vh 5vw;
+.app {
+    height: 100%;
+}
+
+.body {
+    h1 {
+        text-align: center;
+        margin: 0;
+    }
+
+    p {
+        color: #000;
+        opacity: 0.45;
+    }
+    padding: 3rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    background-color: #E5E5E5;
-    img{
-        // width: 70vw;
+    background-color: #e5e5e5;
+    height: 100%;
+    img.hero {
+        width: 90%;
+        object-fit: cover;
     }
     button {
-        background-color: #7E9BF9;
+        background-color: #7e9bf9;
         padding: 2vh 8vw;
         font-size: large;
         width: 85%;
@@ -21,11 +36,10 @@
         justify-content: space-between;
         align-items: center;
         cursor: pointer;
-        
-    
+        width: 100%;
     }
 }
-.vector{
-    width:40px;
-    height: 40px;
+.vector {
+    width: 1.5rem;
+    object-fit: cover;
 }

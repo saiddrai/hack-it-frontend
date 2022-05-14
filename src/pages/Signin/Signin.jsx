@@ -26,7 +26,7 @@ const Signin = () => {
             .catch((err) => console.log(err));
     };
     return (
-        <div>
+        <div className="sign-in-container">
             <h2>Getting started</h2>
             <p>Create account to continue </p>
             <div
@@ -36,6 +36,7 @@ const Signin = () => {
                 <input
                     type="User name"
                     value={formInputs.name}
+                    placeholder="username"
                     onChange={(e) =>
                         setFormInputs((prev) => ({
                             ...prev,
@@ -45,6 +46,7 @@ const Signin = () => {
                 />
                 <input
                     type="email"
+                    placeholder="email"
                     value={formInputs.email}
                     onChange={(e) =>
                         setFormInputs((prev) => ({
@@ -55,6 +57,7 @@ const Signin = () => {
                 />
                 <input
                     type="password"
+                    placeholder="password"
                     value={formInputs.password}
                     onChange={(e) =>
                         setFormInputs((prev) => ({
@@ -65,6 +68,7 @@ const Signin = () => {
                 />
                 <input
                     type="password confirmation"
+                    placeholder="password confirmation"
                     value={formInputs.password2}
                     onChange={(e) =>
                         setFormInputs((prev) => ({
@@ -74,16 +78,13 @@ const Signin = () => {
                     }
                 />
             </div>
-            <button onClick={submitLogin}>Sign in</button>
-            <h4>Or</h4>
-            <div style={{ display: 'flex', flexDirection: 'row' }}>
-                <p>Apple</p>
-                <p>Google</p>
-                <p>Facebook</p>
-            </div>
             <button onClick={handleClick} className="signin">
-                Sign in
+                Sign up
             </button>
+            <h4>Or</h4>
+            <p>
+                You already have an account! <a href="/signin">sign in</a>{' '}
+            </p>
         </div>
     );
 };
