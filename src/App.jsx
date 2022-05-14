@@ -5,9 +5,9 @@ import Welcome from "./pages/Welcome/Welcome.jsx";
 function App() {
   return (
     <div className="App">
-      {/* <Welcome /> */}
-      {/* <Signin /> */}
-      <ChoicePage1/>
+      {/* <Welcome />*/
+      <Signin /> 
+     /* <ChoicePage1/> */}
     </div>
   );
 }
